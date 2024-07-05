@@ -34,7 +34,7 @@
   --overflow: hidden;
   --btn-bg: red;
   --letter-space: 0.1rem;
-  --logo-wth: 175px;
+  --logo-wth: 220px;
   --btn-font: 0.8rem;
   --btn-pdg: 8px 14px;
   --btn-wgt: 500;
@@ -79,8 +79,6 @@ section {
 
 .wall {
   background-image: url(wal.jpg);
-  /* filter: brightness(1); */
-  /* opacity: 0.44; */
 }
 
 .box {
@@ -216,8 +214,10 @@ input:hover {
   z-index: 1000;
 }
 .video video {
-  margin-left: 74px;
-  bottom: -330px;
+  /* left: 750px; */
+  top: 675px;
+  margin-left: 62px;
+  /* bottom: -230px; */
   position: absolute;
 }
 
@@ -509,11 +509,7 @@ ul li select {
   .sec2 .left p {
     font-size: 1.3rem;
   }
-  .video video {
-    margin-left: 50px;
-    bottom: -393px;
-  }
-  .sec3 .right h1 {
+   .sec3 .right h1 {
     font-size: 2.1rem;
     letter-spacing: 0.1rem;
     font-weight: 900;
@@ -644,15 +640,8 @@ ul li select {
     column-gap: 10px;
     font-weight: 600;
   }
-  .sec2 .right img {
-    max-width: 450px;
-    position: relative;
-    z-index: 1000;
-  }
   .video video {
-    margin-left: 35px;
-    max-width: 394px;
-    bottom: -324px;
+    top: 632px;
   }
   .sec2 .left {
     margin: 0px 5px 0px 20px;
@@ -737,7 +726,11 @@ ul li select {
     font-size: 1.1rem;
   }
 }
-
+@media screen and (max-width: 778px) {
+  .video video {
+    top: 681px;
+  }
+}
 @media screen and (max-width: 750px) {
   .nav {
     padding: 12px 23px;
@@ -785,15 +778,9 @@ ul li select {
     row-gap: 25px;
     padding: 10px;
   }
-  .sec2 .right img {
-    max-width: 520px;
-    position: relative;
-    z-index: 1000;
-  }
-  .video video {
-    margin-left: 46px;
-    max-width: 400px;
-    bottom: -452px;
+   .video video {
+    margin-left: 61px;
+    top: 750px;
   }
   .sec2 .left {
     max-width: 600px;
@@ -892,15 +879,17 @@ ul li select {
     max-width: 80%;
   }
 }
-
+@media screen and (max-width: 743px) {
+  .video video {
+    top: 798px;
+  }
+}
 @media screen and (max-width: 642px) {
   .sec2 .left {
     max-width: 540px;
   }
   .video video {
-    margin-left: 48px;
-    max-width: 380px;
-    bottom: -447px;
+    top: 767px;
   }
   .input {
     padding: 0px 10px;
@@ -928,7 +917,16 @@ ul li select {
     font-size: 2rem;
   }
 }
-
+@media screen and (max-width: 612px) {
+  .video video {
+    top: 813px;
+  }
+}
+@media screen and (max-width: 592px) {
+  .video video {
+    top: 850px;
+  }
+}
 @media screen and (max-width: 565px) {
   .nav {
     padding: 20px 10px 30px 10px;
@@ -971,15 +969,8 @@ ul li select {
   .sec2 .left p {
     font-size: 0.9rem;
   }
-  .sec2 .right img {
-    max-width: 460px;
-    position: relative;
-    z-index: 1000;
-  }
-  .video video {
-    margin-left: 27px;
-    max-width: 370px;
-    bottom: -461px;
+   .video video {
+    top: 795px;
   }
   .sec3 .right {
     padding: 0;
@@ -1110,12 +1101,8 @@ ul li select {
     padding-left: 0px;
     max-width: 33px;
   }
-  .sec2 .right img {
-    max-width: 435px;
-  }
   .video video {
-    max-width: 377px;
-    bottom: -420px;
+    top: 750px;
   }
   .sec2 .left {
     max-width: 400px;
@@ -1178,7 +1165,7 @@ ul li select {
   }
 }
 
-@media screen and (max-width: 455px) {
+@media screen and (max-width: 490px) {
   .nav {
     padding: 2px 4px 8px 4px;
   }
@@ -1213,13 +1200,8 @@ ul li select {
   .sec2 .left {
     max-width: 340px;
   }
-  .sec2 .right img {
-    max-width: 365px;
-  }
   .video video {
-    margin-left: 44px;
-    max-width: 271px;
-    bottom: -297px;
+    top: 685px;
   }
   .sec3 .right {
     max-width: 340px;
@@ -1287,7 +1269,31 @@ ul li select {
     font-size: 0.8rem;
   }
 }
-
+@media screen and (max-width: 470px) {
+  .sec2 .right img {
+    max-width: 400px;
+  }
+  .video video {
+    margin-left: 51px;
+    max-width: 292px;
+    top: 696px;
+  }
+}
+@media screen and (max-width: 424px) {
+  .sec2 .right img {
+    max-width: 370px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .sec2 .right img {
+    max-width: 325px;
+  }
+  .video video {
+    margin-left: 44px;
+    max-width: 239px;
+    top: 685px;
+  }
+}
 @media screen and (max-width: 385px) {
   .nav {
     margin: 0px;
@@ -1305,14 +1311,6 @@ ul li select {
   }
   .sec2 .left {
     max-width: 300px;
-  }
-  .sec2 .right img {
-    max-width: 320px;
-  }
-  .video video {
-    margin-left: 52px;
-    max-width: 230px;
-    bottom: -269px;
   }
   .sec3 .right {
     max-width: 300px;
@@ -1371,8 +1369,8 @@ ul li select {
   }
 }
 
-@media screen and (max-width: 335px) {
+@media screen and (max-width: 345px) {
   .sec2 .right img {
-    max-width: 290px;
+    max-width: 300px;
   }
 }

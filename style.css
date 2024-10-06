@@ -61,12 +61,12 @@ section,
 .sec5,
 .grid,
 .faq {
-  max-width: var(--mx-wth);
   overflow-x: var(--overflow);
+  max-width: var(--mx-wth);
 }
 
 section {
-  background-color: rgb(11 12 12);
+  background-color: black;
 }
 
 .separation {
